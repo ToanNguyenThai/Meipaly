@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+
+    <title>Meipaly</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header__content">
+            <div class="header__logo">
+                <a href="#">
+                    <i class="fab fa-atlassian fa-2x"></i>
+                    <span>meipaly</span>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li class="active">
+                        <a href="#">home</a>
+                    </li>
+                    <li>
+                        <a href="#">service</a>
+                    </li>
+                    <li>
+                        <a href="#">showcase</a>
+                    </li>
+                    <li>
+                        <a href="#">blog</a>
+                    </li>
+                    <li>
+                        <a href="#">about us</a>
+                    </li>
+                    <li>
+                        <a href="#">contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="carousel">
+        <div class="carousel__content">
+            <h3>WELCOME TO MEIPALY AGENCY</h3>
+            <h1>SMART WEB</h1>
+            <h1>DESIGN AGENCY</h1>
+            <div class="btn-area">
+                <button>READ MORE</button>
+            </div>
+            <div class="scroll__arrow">
+                <i class="fas fa-chevron-down fa-2x"></i>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                autoplay: true,
+                autoplayTimeout: 2000,
+                autoplayHoverPause: true,
+                loop: true,
+                dots: true ,// if you don't want dots, change to false
+                dotsEach: true,
+                margin: 30,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+
+                        items: 1
+                    },
+                    1000: {
+                        items: 3,
+                    },
+                    1217: {
+                        items: 5
+                    }
+                }
+            })
+        });
+    </script>
+
+    <section class="service">
+        <div class="service__content">
+            <h3>SERVICES WE ARE OFFERING</h3>
+            <h1>WE DESIGN DIGITAL PRODUCTS THAT HELP GROW <br> BUSINESSES.</h1>
+            <p>We are committed to providing our customers with exceptional service while offering <br>
+                our employees the best training.</p>
+            <div class="service__carousel">
+                <div class="owl-carousel owl-theme">
+                    <div class="carousel__item">
+                        <i class="fa fa-dice-d6 fa-3x"></i>
+                        <h3>APP MOBILE <br> DEVELOPMENT</h3>
+                    </div>
+                    <div class="carousel__item">
+                        <i class="fab fa-autoprefixer fa-3x"></i>
+                        <h3>DIGITAL<br> MARKETING</h3>
+                    </div>
+                    <div class="carousel__item">
+                        <i class="fab fa-500px fa-3x"></i>
+                        <h3>SEO & CONTENT <br> WRITTING</h3>
+                    </div>
+                    <div class="carousel__item">
+                        <i class="fa fa-blog fa-3x"></i>
+                        <h3> WEBSITE <br> DEVELOPMENT</h3>
+                    </div>
+                    <div class="carousel__item">
+                        <i class="fab fa-battle-net fa-3x"></i>
+                        <h3>SEO & CONTENT <br> WRITTING</h3>
+                    </div>
+                    <div class="carousel__item">
+                        <i class="fa fa-dice-d6 fa-3x"></i>
+                        <h3>APP MOBILE <br> DEVELOPMENT</h3>
+                    </div>
+                   
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section class="portfolio">
+        <div class="portfolio__content">
+            <h3>our portfolio</h3>
+            <h1>work showcase</h1>
+            <p>We are committed to providing our customers with exceptional service while offering our <br>
+                employees the best training.</p>
+            <div class="portfolio__content__img">
+                <div class="content__container">
+                    <img src="../img/showcase_img_1.webp" alt="">
+                </div>
+                <div class="content__container">
+                    <img src="../img/showcase_img_2.webp" alt="">
+                </div>
+                <div class="content__container">
+                    <img src="../img/showcase_img_3.webp" alt="">
+                </div>
+                <div class="content__container">
+                    <img src="../img/showcase_img_5.webp" alt="">
+                </div>
+                <div class="content__container">
+                    <img src="../img/showcase_img_6.webp" alt="">
+                </div>
+                <div class="content__container">
+                    <img src="../img/showcase_img_7.webp" alt="">
+                </div>
+                         
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

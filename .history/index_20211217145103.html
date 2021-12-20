@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.js"
+        integrity="sha512-BnrjiUrz5UU3mBQD4awG5ekDBgTPUzpcNJtMQbNj4kfqStjn48180rUTEQjU5+Gf2BBfAtZETnMP4Khv0vcPug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./lib/countup/jquery.countup.min.js"></script>
+
+    <title>Meipaly</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header__content">
+            <div class="header__logo">
+                <a href="#">
+                    <i class="fab fa-atlassian fa-2x"></i>
+                    <span>meipaly</span>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li class="active">
+                        <a href="#">home</a>
+                    </li>
+                    <li>
+                        <a href="#">service</a>
+                    </li>
+                    <li>
+                        <a href="#">showcase</a>
+                    </li>
+                    <li>
+                        <a href="#">blog</a>
+                    </li>
+                    <li>
+                        <a href="#">about us</a>
+                    </li>
+                    <li>
+                        <a href="#">contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="carousel">
+        <div class="carousel__content">
+            <h3>WELCOME TO MEIPALY AGENCY</h3>
+            <h1>SMART WEB</h1>
+            <h1>DESIGN AGENCY</h1>
+            <div class="btn-area">
+                <button>READ MORE</button>
+            </div>
+            <div class="scroll__arrow">
+                <i class="fas fa-chevron-down fa-2x"></i>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                autoplay: true,
+                autoplayTimeout: 2000,
+                autoplayHoverPause: true,
+                loop: true,
+                dots: true,// if you don't want dots, change to false
+                dotsEach: true,
+                margin: 30,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+
+                        items: 1
+                    },
+                    1000: {
+                        items: 3,
+                    },
+                    1217: {
+                        items: 5
+                    }
+                }
+            })
+        });
+    </script>
+
+    <section class="service">
+        <div class="service__content">
+            <h3>SERVICES WE ARE OFFERING</h3>
+            <h1>WE DESIGN DIGITAL PRODUCTS THAT HELP GROW <br> BUSINESSES.</h1>
+            <p>We are committed to providing our customers with exceptional service while offering <br>
+                our employees the best training.</p>
+            <div class="service__carousel">
+                <div class="owl-carousel owl-theme">
+                    <div class="carousel__item">
+                        <div class="right__border"></div>
+                        <i class="fa fa-dice-d6 fa-3x"></i>
+                        <h3>APP MOBILE <br> DEVELOPMENT</h3>
+                    </div>
+                    <div class="carousel__item">
+                        <div class="right__border"></div>
+                        <i class="fab fa-autoprefixer fa-3x"></i>
+                        <h3>DIGITAL<br> MARKETING</h3>
+                    </div>
+                    <div class="carousel__item">
+                        <div class="right__border"></div>
+                        <i class="fab fa-500px fa-3x"></i>
+                        <h3>SEO & CONTENT <br> WRITTING</h3>
+                    </div>
+                    <div class="carousel__item">
+                        <div class="right__border"></div>
+                        <i class="fa fa-blog fa-3x"></i>
+                        <h3> WEBSITE <br> DEVELOPMENT</h3>
+                    </div>
+                    <div class="carousel__item">
+                        <div class="right__border"></div>
+                        <i class="fab fa-battle-net fa-3x"></i>
+                        <h3>SEO & CONTENT <br> WRITTING</h3>
+                    </div>
+                    <div class="carousel__item">
+                        <div class="right__border"></div>
+                        <i class="fa fa-dice-d6 fa-3x"></i>
+                        <h3>APP MOBILE <br> DEVELOPMENT</h3>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="portfolio">
+        <div class="portfolio__content">
+            <h3>our portfolio</h3>
+            <h1>work showcase</h1>
+            <p>We are committed to providing our customers with exceptional service while offering our <br>
+                employees the best training.</p>
+            <div class="portfolio__content__img">
+                <div class="content__container">
+                    <img src="./img/showcase_img_1.webp" alt="">
+                    <div class="overlay">
+                        <div class="zoom">
+                            <a href="">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                        <div class="description">
+                            <h3>LOGO</h3>
+                            <h2>FLIPPIN BIRD</h2>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="content__container">
+                    <img src="./img/showcase_img_2.webp" alt="">
+                    <div class="overlay">
+                        <div class="zoom">
+                            <a href="">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                        <div class="description">
+                            <h3>LOGO</h3>
+                            <h2>FLIPPIN BIRD</h2>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="content__container">
+                    <img src="./img/showcase_img_3.webp" alt="">
+                    <div class="overlay">
+                        <div class="zoom">
+                            <a href="">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                        <div class="description">
+                            <h3>LOGO</h3>
+                            <h2>FLIPPIN BIRD</h2>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="content__container">
+                    <img src="./img/showcase_img_5.webp" alt="">
+                    <div class="overlay">
+                        <div class="zoom">
+                            <a href="">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                        <div class="description">
+                            <h3>LOGO</h3>
+                            <h2>FLIPPIN BIRD</h2>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="content__container">
+                    <img src="./img/showcase_img_6.webp" alt="">
+                    <div class="overlay">
+                        <div class="zoom">
+                            <a href="">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                        <div class="description">
+                            <h3>LOGO</h3>
+                            <h2>FLIPPIN BIRD</h2>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="content__container">
+                    <img src="./img/showcase_img_7.webp" alt="">
+                    <div class="overlay">
+                        <div class="zoom">
+                            <a href="">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                        <div class="description">
+                            <h3>LOGO</h3>
+                            <h2>FLIPPIN BIRD</h2>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="blog">
+        <div class="blog__title">
+            <h3>OUR NEWS & ARTICLES</h3>
+            <h1>LATEST BLOG POSTS</h1>
+            <p>We are committed to providing our customers with exceptional service while offering our <br>
+                employees the best training.</p>
+        </div>
+        <div class="blog__content">
+            <div class="blog__item" id="first__item">
+                <img src="./img/grid-metro-1.jpg" alt="">
+
+            </div>
+            <div class="blog__item">
+                <img src="./img/grid-metro-2.jpg" alt="">
+
+            </div>
+            <div class="blog__item">
+                <img src="./img/grid-metro-3.jpg" alt="">
+
+            </div>
+            <div class="blog__item">
+                <img src="./img/grid-metro-4.jpg" alt="">
+
+            </div>
+            <div class="blog__item">
+                <img src="./img/grid-metro-5.jpg" alt="">
+
+            </div>
+            <div class="blog__item">
+                <img src="./img/grid-metro-6.jpg" alt="">
+
+            </div>
+            <div class="blog__item">
+                <img src="./img/grid-metro-7.jpg" alt="">
+
+            </div>
+            <div class="blog__item">
+                <img src="./img/grid-metro-8.jpg" alt="">
+
+            </div>
+            <div class="blog__item">
+                <img src="./img/grid-metro-9.jpg" alt="">
+
+            </div>
+            <div class="blog__item" id="last__item">
+                <img src="./img/grid-metro-10.jpg" alt="">
+
+            </div>
+        </div>
+
+        <section class="number">
+            <div class="number__content">
+                <div class="content__item">
+                    <p class="counter">8,705</p>
+                    <p>PROJECTS COMPLETED</p>
+                </div>
+
+                <div class="content__item">
+                    <p class="counter">480</p>
+                    <p>ACTIVE CLIENTS</p>
+                </div>
+
+                <div class="content__item">
+                    <p class="counter">625</p>
+                    <p>CUPS OF COFFEE</p>
+                </div>
+
+                <div class="content__item">
+                    <p class="counter">9,774</p>
+                    <p>HAPPY CLIENTS</p>
+                </div>
+
+            </div>
+        </section>
+    </section>
+
+    <section class="experience">
+        <div class="experience__title">
+            <h3>HOW DO WE WORKS</h3>
+            <h1>DIGITAL EXPERIENCE</h1>
+            <p>We are committed to providing our customers with exceptional service while offering our
+                <br>
+                employees the best training.
+            </p>
+        </div>
+        <div class="experience__content">
+            <video controls poster="./img/home_slider.jpg">
+                <source src="./video/INTRO_FINAL_NEW.mp4" type="video/mp4">
+                Your browser doesn't support HTML5 video tag.
+            </video>
+            <!-- <iframe src="https://www.youtube.com/embed/kcSEsljlges" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="contact__title">
+            <h2>CONTACT</h2>
+            <p>Thank you for your interest in our website & our services. If you have any <br> questions, please write
+                us a message now!
+            </p>
+        </div>
+        <div class="contact__content">
+            <div class="contact__map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15677.980968126514!2d106.6686637!3d10.7733302!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb490b64157cb9dc1!2sCybersoft!5e0!3m2!1sen!2s!4v1618408657872!5m2!1sen!2s"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+            <div class="contact__form">
+                <form action="">
+                    <input type="text" placeholder="Username">
+                    <input type="email" placeholder="Email Address">
+                    <textarea placeholder="Ask a Question..." name="" id="" cols="30" rows="8"></textarea>
+                    <button>SUBMIT</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer__content">
+            <p>© 2021 UI-CYBERSOFT. ALL RIGHTS RESERVED.</p>
+            <div>
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+            </div>
+        </div>
+    </footer>
+
+    <div onclick="topFunction()" id="myBtn">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <script>
+        $('.counter').countUp();
+        mybutton = document.getElementById("myBtn");
+        window.onscroll = function () 
+        { 
+            scrollFunction() 
+        }
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }   
+        function topFunction() {
+          
+            document.documentElement.scrollTop = 0; 
+        }
+    </script>
+</body>
+
+</html>

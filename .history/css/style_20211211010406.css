@@ -1,0 +1,252 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+}
+header {
+    width: 100%;
+    height: 100px;
+    position: absolute; 
+    border-bottom: 1px solid #adadad;
+}
+header .header__content{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo{
+    margin-top: 23px;
+}
+.header__logo a{
+    text-decoration: none;
+    color: white;
+}
+.header__logo a span{
+    font-size: 30px;
+    font-weight: 700;
+}
+.header__content nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-top: 35px;
+    margin-left: 20px; 
+    margin-right: 30px;
+}
+.header__content nav ul li.active a{
+    color : #e62b4a;
+}
+.header__content nav ul li a{
+    color: white;
+    transition: all 0.5s;
+}
+.header__content nav ul li a:hover{
+    color : #e62b4a;
+}
+
+.carousel{
+    height: 700px;
+    background-image: url("../img/home_slider.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+.carousel__content{
+    margin-top: 150px;
+}
+.carousel__content h1, .carousel__content h3{ 
+    text-align: center;
+    color: white;
+}
+.carousel__content h1{
+    font-size: 75px;
+}
+
+.carousel__content h3{
+    font-size: 25px;
+}
+.carousel__content .btn-area{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.carousel__content .btn-area button{
+    width: 150px;
+    height: 50px;   
+    font-size: 20px;
+    background-color: #e62b4a;
+    outline: none;
+    border : none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.carousel__content .btn-area button:hover{
+    filter: grayscale(30%);
+}
+.carousel__content .scroll__arrow{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.carousel__content .scroll__arrow i{
+    color: white;
+}
+
+/* --------------------- */
+
+.service{
+    width: 100%;
+    height: 100%;
+    height: 717.6px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service__content{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1170px;
+}
+.service__content h3, .service__content h1, .service__content p{
+    text-align: center;
+
+}
+
+.service__content h3{
+    color: #e62b4a;
+    font-weight: normal;
+}
+.service__content h1{
+    font-size: 50px;
+    font-weight: normal;
+    color: white;
+}
+.service__content p{
+    color: #818081;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.service__carousel{
+    margin: 0 auto;
+    margin-top: 35px;
+    width: 100%;
+    max-width: 1170px;
+}
+.carousel__item{
+    width: 208px;
+    height: 230px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #888888;
+}
+.carousel__item h3{
+    color: #888888;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.owl-theme .owl-dots .owl-dot{
+    margin-top: 10px;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 12px;
+    height: 12px;
+    background: #3f3f3f;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background: #e62b4a;
+}
+
+/* --------------------- */
+
+
+.portfolio{
+    width: 100%;
+    height: 100%;
+    height: 800px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+
+}
+.portfolio__content{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1170px;
+}
+.portfolio__content h1, h3{
+    text-transform: uppercase;
+}
+.portfolio__content h1, h3, p {
+    text-align: center;
+    font-weight: normal;
+}
+.portfolio__content h3{
+    
+    color: #888888;
+    font-size: 14px;
+    margin-top: 105px;
+}
+.portfolio__content h1{
+    margin-top: 10px;
+    font-size: 50px;
+}
+.portfolio__content p{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #888888;
+}
+.portfolio__content__img{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    
+}
+.content__container{
+    width: 360px;
+    height: 270px;
+    margin-top: 50px;
+    filter: grayscale(100%);
+    position: relative;
+}
+.content__container img{
+    width: 100%;
+    position: absolute;
+}
+.content__container .zoom{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 20px;
+    right: 20px;
+    background-color: white;
+    text-align: center;
+    line-height: 35px;
+}
+
+.content__container .description{
+    
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    font-size: 20px;
+}
+.content__container .description h2, .content__container .description h3{
+    margin: 0;
+}
+

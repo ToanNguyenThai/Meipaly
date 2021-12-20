@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+header .header__content{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo{
+    margin-top: 35px;
+}
+.header__logo a{
+    text-decoration: none;
+    color: white;
+}
+.header__logo a span{
+    font-size: 30px;
+    font-weight: 700;
+}
